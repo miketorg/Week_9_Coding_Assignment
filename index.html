@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Login page
+</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Joined!";
+    }
+    </script>
+ <style>
+  .fakeimg {
+    height: 200px;
+    width: 350px;
+  }
+  </style>
+<body>
+    
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Brody Torgerson</h1>
+    <h2>2025 Graduate</h2> 
+  </div>
+
+  <div class="container">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+       
+        <a class="navbar-brand">Stats</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="football.html">Football</a></li>
+          <li><a href="basketball.html">Basketball</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <p><b>Join my Email list!</b></p>
+  <form class="form-inline">
+    <div class="form-group mb-2">
+      <label for="exampleInputEmail1" class="sr-only">Email</label>
+      <input type="email"  id="staticEmail2" placeholder="name@example.com">
+    </div>
+    <button type="submit" id="demo" class="btn btn-primary mb-2" >Join</button>
+    <script>
+      document.getElementById("demo").onclick = function() {myFunction()};
+      
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Joined!";
+      }
+      </script>
+  </form>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Football</h2>
+        <img class="fakeimg" src="football.jfif">
+        <p>Idaho Class 1A Division II Football State Championship</p>
+        <h3>Highlights</h3>
+        <a class="fakeimg" href="https://www.maxpreps.com/athlete/brody-torgerson/yJLGJ57uHU-jqttiovNFJQ/videos.htm?videoid=05c4b239-dd6a-4e0d-9a4c-d780b95f55bd">
+        <img src="football.jfif"> </a>
+        <p>MaxPreps</p>
+        
+      </div>
+
+      <div class="col-sm-6">
+        <h2>Basketball</h2>
+        <img class="fakeimg" src="basketball.webp">
+        <p>Dietrich Basketball (2021-22) Roster</p>
+        <h3>Highlights</h3>
+        <a class="fakeimg" href="https://www.kmvt.com/2022/12/17/dietrich-goes-road-beat-murtaugh-prep-sports-scores/">
+        <img src="bbal.png" height="165px" width="300px"></a>
+        <p>KMTV</p>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="check-password-1.js"></script>
+
+
+  
+
+</body>
+</html>
